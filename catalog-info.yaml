@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "docs-payments-auth-tutorial"
+  description: "Documentation for integrating with the Payments Auth API"
+  annotations:
+    github.com/project-slug: NextGen-DX-Catalyst/docs-payments-auth-tutorial
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/payments"
